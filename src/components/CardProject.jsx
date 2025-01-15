@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ExternalLink, ArrowRight } from "lucide-react";
 import data from './Data.json';
 
-const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
+const CardProject = ({ Img, Title, Description, Link, id }) => {
   const handleDetails = (e) => {
     if (!id) {
       console.log("ID is empty");
@@ -36,17 +36,18 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
             </p>
 
             <div className="pt-4 flex items-center justify-between">
-              {id ? (
-                <Link
-                  to={`/project/${id}`}
-                  onClick={handleDetails}
+              {Link ? (
+                <a
+                  href={Link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/90 transition-all duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                 >
-                  <span className="text-sm font-medium">Details</span>
+                  <span className="text-sm font-medium">GitHub</span>
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </a>
               ) : (
-                <span className="text-gray-500 text-sm">Details Not Available</span>
+                <span className="text-gray-500 text-sm">GitHub Link Not Available</span>
               )}
             </div>
           </div>

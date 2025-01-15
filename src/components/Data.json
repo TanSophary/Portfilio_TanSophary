@@ -1,111 +1,110 @@
 {
-    "projects": [
-      {
-        "id": 1,
-        "Title": "Project One",
-        "Description": "A project that demonstrates React and Tailwind integration for modern UI design.",
-        "Link": "https://projectone.com",
-        "Github": "hhttps://github.com/TanSophary/project_news_php",
-        "Img": "/pphp.jpg",
-        "TechStack": ["React", "Tailwind", "Javascript"],
-        "Features": ["Feature 1", "Feature 2", "Feature 3"]
-      },
-      {
-        "id": 2,
-        "Title": "Project Two",
-        "Description": "A Node.js backend application with Express for handling API requests.",
-        "Link": "https://projecttwo.com",
-        "Github": "https://github.com/user/projecttwo",
-        "Img": "/images/projecttwo.jpg",
-        "TechStack": ["Node.js", "Express", "MongoDB"],
-        "Features": ["Feature A", "Feature B"]
-      },
-      {
-        "id": 3,
-        "Title": "Project Three",
-        "Description": "A Python application utilizing Flask for web development and machine learning integration.",
-        "Link": "https://projectthree.com",
-        "Github": "Private",
-        "Img": "/images/projectthree.jpg",
-        "TechStack": ["Python", "Flask", "Machine Learning"],
-        "Features": ["ML Feature 1", "Web Feature"]
-      },
-      {
-        "id": 4,
-        "Title": "Project Four",
-        "Description": "A static website built with HTML and CSS for portfolio display.",
-        "Link": "https://projectfour.com",
-        "Github": "https://github.com/user/projectfour",
-        "Img": "/images/projectfour.jpg",
-        "TechStack": ["HTML", "CSS"],
-        "Features": ["Responsive Design", "SEO Optimization"]
-      },
-      {
-        "id": 5,
-        "Title": "Project Five",
-        "Description": "A full-stack JavaScript application with React frontend and Node.js backend.",
-        "Link": "https://projectfive.com",
-        "Github": "https://github.com/user/projectfive",
-        "Img": "/images/projectfive.jpg",
-        "TechStack": ["React", "Node.js", "Express", "MongoDB"],
-        "Features": ["Login System", "Admin Panel"]
-      },
-      {
-        "id": 6,
-        "Title": "Project Six",
-        "Description": "A mobile-first e-commerce platform built with Vue.js and Vuetify.",
-        "Link": "https://projectsix.com",
-        "Github": "https://github.com/user/projectsix",
-        "Img": "/images/projectsix.jpg",
-        "TechStack": ["Vue.js", "Vuetify", "Firebase"],
-        "Features": ["Product Catalog", "Shopping Cart"]
-      },
-      {
-        "id": 7,
-        "Title": "Project Seven",
-        "Description": "A content management system (CMS) built using Laravel for dynamic content handling.",
-        "Link": "https://projectseven.com",
-        "Github": "https://github.com/user/projectseven",
-        "Img": "/images/projectseven.jpg",
-        "TechStack": ["Laravel", "PHP", "MySQL"],
-        "Features": ["Content Editing", "User Management"]
-      },
-      {
-        "id": 8,
-        "Title": "Project Eight",
-        "Description": "A game built with Unity3D for interactive learning experiences.",
-        "Link": "https://projecteight.com",
-        "Github": "https://github.com/user/projecteight",
-        "Img": "/images/projecteight.jpg",
-        "TechStack": ["Unity3D", "C#"],
-        "Features": ["Multiplayer Mode", "Interactive Learning"]
-      }
-    ],    
-    "certificates": [
-      { 
-        "Img": "cc++.jpg"
-      },
-      { 
-        "Img": "chtml.jpg"
-      },
-      { 
-        "Img": "creact.jpg"
-      },
-      { 
-        "Img": "cisco.png"
-      },
-      { 
-        "Img": "cisco2.png"
-      },
-      { 
-        "Img": "cvol.jpg"
-      },
-      { 
-        "Img": "cvolunteer.jpg"
-      },
-      { 
-        "Img": "cwordexel.jpg"
-      }
-    ]
-  }
+  "projects": [
+    {
+      "id": "1",
+      "Img": "pphp.jpg",
+      "Title": "CMS System",
+      "Description": "This is a description for Project One.",
+      "Link": "https://github.com/TanSophary/project_news_php"
+    },
+    {
+      "id": "2",
+      "Img": "plaravel.jpg",
+      "Title": "Ecommerce Websit",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://github.com/TanSophary/ecommerce_laravel"
+    },
+    {
+      "id": "3",
+      "Img": "pkilohealth.jpg",
+      "Title": "KiloHealth Website",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://projecttwo.example.com"
+    },
+    {
+      "id": "4",
+      "Img": "pkiloblood.jpg",
+      "Title": "KiloBlood App",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://projecttwo.example.com"
+    },
+    {
+      "id": "5",
+      "Img": "pschool.jpg",
+      "Title": "ABA Guideline",
+      "Description": "This is a description for Project One.",
+      "Link": "https://github.com/TanSophary/project_news_php"
+    },
+    {
+      "id": "6",
+      "Img": "psabay.jpg",
+      "Title": "Project Two",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://projecttwo.example.com"
+    },
+    {
+      "id": "7",
+      "Img": "pcomputer.jpg",
+      "Title": "Project Two",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://projecttwo.example.com"
+    },
+    {
+      "id": "8",
+      "Img": "pbook.jpg",
+      "Title": "Project Two",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://projecttwo.example.com"
+    },
+    {
+      "id": "9",
+      "Img": "pport.jpg",
+      "Title": "Portfolio Website",
+      "Description": "This is a description for Project Two.",
+      "Link": "https://projecttwo.example.com"
+    }
+  ],
+  "certificates": [
+    { 
+      "id": 1,
+      "Title": "C and C++ Programming",
+      "Img": "cc++.jpg"
+    },
+    { 
+      "id": 2,
+      "Title": "HTML Fundamentals",
+      "Img": "chtml.jpg"
+    },
+    { 
+      "id": 3,
+      "Title": "React Development",
+      "Img": "creact.jpg"
+    },
+    { 
+      "id": 4,
+      "Title": "Cisco Networking Basics",
+      "Img": "cisco.png"
+    },
+    { 
+      "id": 5,
+      "Title": "Cisco Advanced Networking",
+      "Img": "cisco2.png"
+    },
+    { 
+      "id": 6,
+      "Title": "Volunteer Experience Certificate",
+      "Img": "cvol.jpg"
+    },
+    { 
+      "id": 7,
+      "Title": "Volunteer Leadership Certificate",
+      "Img": "cvolunteer.jpg"
+    },
+    { 
+      "id": 8,
+      "Title": "Microsoft Word and Excel Training",
+      "Img": "cwordexel.jpg"
+    }
+  ]
   
+}
