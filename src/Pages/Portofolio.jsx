@@ -105,12 +105,11 @@ const techStacks = [
   { icon: "tailwind.svg", language: "Tailwind CSS" },
   { icon: "reactjs.svg", language: "ReactJS" },
   { icon: "vite.svg", language: "Vite" },
-  { icon: "nodejs.svg", language: "Node JS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
-  { icon: "firebase.svg", language: "Firebase" },
-  { icon: "MUI.svg", language: "Material UI" },
-  { icon: "vercel.svg", language: "Vercel" },
-  { icon: "SweetAlert.svg", language: "SweetAlert2" },
+  { icon: "java-svgrepo-com.svg", language: "Java" },
+  { icon: "spring-boot-svgrepo-com.svg", language: "Spring Boot" },
+  { icon: "php2-svgrepo-com.svg", language: "PHP" },
+  { icon: "laravel-svgrepo-com.svg", language: "Laravel" },
 ];
 
 export default function FullWidthTabs() {
@@ -118,7 +117,6 @@ export default function FullWidthTabs() {
   const [value, setValue] = useState(0);
   const [projects, setProjects] = useState([]);
   const [certificates, setCertificates] = useState([]);
-  const [techStacks, setTechStacks] = useState([]);
   const [showAllProjects, setShowAllProjects] = useState(false);
   const [showAllCertificates, setShowAllCertificates] = useState(false);
   const isMobile = window.innerWidth < 768;
@@ -137,17 +135,18 @@ export default function FullWidthTabs() {
         Description: item.Description,
         Link: item.Link,
       }));
-
+      // const projectData = projectSnapshot.docs.map((doc) => ({
+      //   id: doc.id,
+      //   ...doc.data(),
+        
+      // }));
       const certificateData = data.certificates || [];
-      const techStackData = data.techStacks || [];
 
       setProjects(projectData);
       setCertificates(certificateData);
-      setTechStacks(techStackData);
 
       localStorage.setItem("projects", JSON.stringify(projectData));
       localStorage.setItem("certificates", JSON.stringify(certificateData));
-      localStorage.setItem("techStacks", JSON.stringify(techStackData));
     } catch (error) {
       console.error("Error processing Data.json:", error);
     }

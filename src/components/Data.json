@@ -4,64 +4,64 @@
       "id": "1",
       "Img": "pphp.jpg",
       "Title": "CMS System",
-      "Description": "This is a description for Project One.",
+      "Description": "A custom CMS built using PHP, HTML, CSS, Bootstrap, and JavaScript for efficient content management and responsive design.",
       "Link": "https://github.com/TanSophary/project_news_php"
     },
     {
       "id": "2",
       "Img": "plaravel.jpg",
       "Title": "Ecommerce Websit",
-      "Description": "This is a description for Project Two.",
+      "Description": "An Eommerce website built with PHP, Laravel, HTML, CSS, Bootstrap, and JavaScript for seamless online shopping experience.",
       "Link": "https://github.com/TanSophary/ecommerce_laravel"
     },
     {
       "id": "3",
-      "Img": "pkilohealth.jpg",
+      "Img": "kilohealth.png",
       "Title": "KiloHealth Website",
-      "Description": "This is a description for Project Two.",
-      "Link": "https://projecttwo.example.com"
+      "Description": "Developed with a group using Java Spring Boot API to implement the Category feature for the KiloHealth website.",
+      "Link": "https://gitlab.com/Chanthai1102/only-admin"
     },
     {
       "id": "4",
       "Img": "pkiloblood.jpg",
       "Title": "KiloBlood App",
-      "Description": "This is a description for Project Two.",
-      "Link": "https://projecttwo.example.com"
+      "Description": "Working with a team to create the KiloBlood website using Java Spring Boot API, focusing on the Category feature.",
+      "Link": "https://gitlab.com/GitSoriya/kilo-blood"
     },
     {
       "id": "5",
       "Img": "pschool.jpg",
       "Title": "ABA Guideline",
-      "Description": "This is a description for Project One.",
-      "Link": "https://github.com/TanSophary/project_news_php"
+      "Description": "Developed with a group for a school assignment using HTML, CSS, and JavaScript to create the ABA guideline.",
+      "Link": "https://github.com/TanSophary/WebABA_Asignment"
     },
     {
       "id": "6",
       "Img": "psabay.jpg",
-      "Title": "Project Two",
-      "Description": "This is a description for Project Two.",
-      "Link": "https://projecttwo.example.com"
+      "Title": "SabayNews Design",
+      "Description": "Designed the SabayNews website using HTML and CSS for an appealing, responsive layout focused on news presentation.",
+      "Link": "https://github.com/TanSophary/Sabay_news"
     },
     {
       "id": "7",
       "Img": "pcomputer.jpg",
-      "Title": "Project Two",
-      "Description": "This is a description for Project Two.",
-      "Link": "https://projecttwo.example.com"
+      "Title": "Computer Store",
+      "Description": "Developed a website for a computer store using HTML and CSS, focusing on product display and navigation.",
+      "Link": "https://github.com/TanSophary/Computer_shop"
     },
     {
       "id": "8",
       "Img": "pbook.jpg",
-      "Title": "Project Two",
-      "Description": "This is a description for Project Two.",
-      "Link": "https://projecttwo.example.com"
+      "Title": "BookShop Design",
+      "Description": "Created an attractive and functional design for a bookshop website using HTML and CSS, emphasizing user-friendly navigation.",
+      "Link": "https://github.com/TanSophary/book_store"
     },
     {
       "id": "9",
-      "Img": "pport.jpg",
+      "Img": "pport.png",
       "Title": "Portfolio Website",
-      "Description": "This is a description for Project Two.",
-      "Link": "https://projecttwo.example.com"
+      "Description": "Developed a personal portfolio website using React JS, TailwindCSS, HTML, CSS, and JavaScript for an interactive design.",
+      "Link": "https://github.com/TanSophary/Portfilio_TanSophary"
     }
   ],
   "certificates": [
@@ -106,5 +106,4 @@
       "Img": "cwordexel.jpg"
     }
   ]
-  
 }

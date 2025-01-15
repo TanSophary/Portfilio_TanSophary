@@ -6,7 +6,6 @@ import About from "./Pages/About";
 import AnimatedBackground from "./components/Background";
 import Navbar from "./components/Navbar";
 import Portofolio from "./Pages/Portofolio";
-import ContactPage from "./Pages/Contact";
 import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
 
@@ -26,17 +25,20 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <Home />
           <About />
           <Portofolio />
-          <ContactPage />
           <footer>
             <center>
               <hr className="my-3 border-gray-400 opacity-15 sm:mx-auto lg:my-6 text-center" />
+              <h1 className="Get text-xl pb-5 text-gray-500 text-center dark:text-gray-400">Get In Touch</h1>
               <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
-                © 2025{" "}
-                <a href="https://flowbite.com/" className="hover:underline">
-                  Tan Sophary
-                </a>
-                . All Rights Reserved.
+                  138st, Sangkat Teuk Thla, Khan Sensok, Phnom Penh
               </span>
+              <a href="https://t.me/Pha_Rie" className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
+                  Phone: 0979534329
+              </a>
+              <a href="tansophary@gmail.com" className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
+                  Email: tansophary@gmail.com
+              </a>
+              
             </center>
           </footer>
         </>
@@ -47,17 +49,19 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
 
 const ProjectPageLayout = () => (
   <>
-    <ProjectDetails />
     <footer>
       <center>
         <hr className="my-3 border-gray-400 opacity-15 sm:mx-auto lg:my-6 text-center" />
+        <h1 className="Get text-xl pb-5 text-gray-500 text-center dark:text-gray-400">Get In Touch</h1>
         <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
-           2025{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
-            Tan Sophary
-          </a>
-          . All Rights Reserved.
+          138st, Sangkat Teuk Thla, Khan Sensok, Phnom Penh
         </span>
+        <a href="https://t.me/Pha_Rie" className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
+          Phone: 0979534329
+        </a>
+        <a href="tansophary@gmail.com" className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
+          Email: tansophary@gmail.com
+        </a>       
       </center>
     </footer>
   </>
