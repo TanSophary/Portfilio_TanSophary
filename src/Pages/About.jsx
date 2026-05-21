@@ -214,11 +214,11 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-                I am a skilled Web Developer who creates responsive and user-friendly websites. I work with both front-end and back-end technologies and enjoy solving problems and building modern, high-quality web applications.
+               I am a skilled Developer with experience in both Mobile App and Web Development. I create responsive and user-friendly applications and websites, work with both front-end and back-end technologies, and enjoy solving problems and building modern, high-quality digital solutions.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="/TanSophary_CV%20(17).pdf" className="w-full lg:w-auto" download>
+              <a href="/TanSophary_CV.pdf" className="w-full lg:w-auto" download>
                 <button
                   data-aos="fade-up"
                   data-aos-duration="800"

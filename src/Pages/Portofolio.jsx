@@ -99,6 +99,7 @@ function a11yProps(index) {
   };
 }
 const techStacks = [
+  { icon: "flutter.png", language: "Flutter" },
   { icon: "html.svg", language: "HTML" },
   { icon: "css.svg", language: "CSS" },
   { icon: "javascript.svg", language: "JavaScript" },
